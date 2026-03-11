@@ -37,7 +37,7 @@ provider "azurerm" {
 }
 
 module "overlays-datafactory" {
-  source  = "azurenoops/overlays-datafactory/azurerm"
+  source  = "POps-Rox/tf-az-overlays-datafactory/azurerm"
   version = "2.0.0"
   
   location = "usgovvirginia"
@@ -67,7 +67,7 @@ provider "azurerm" {
 }
 
 module "mod_datafactory" {
-  source  = "azurenoops/overlays-datafactory/azurerm"
+  source  = "POps-Rox/tf-az-overlays-datafactory/azurerm"
   version = "x.x.x"
   
   # By default, this module will create a resource group and 
@@ -107,7 +107,7 @@ provider "azurerm" {
 }
 
 module "mod_datafactory" {
-  source  = "azurenoops/overlays-datafactory/azurerm"
+  source  = "POps-Rox/tf-az-overlays-datafactory/azurerm"
   version = "x.x.x
 
   ---Left out for brevity---
@@ -137,7 +137,7 @@ provider "azurerm" {
 }
 
 module "mod_datafactory" {
-  source  = "azurenoops/overlays-datafactory/azurerm"
+  source  = "POps-Rox/tf-az-overlays-datafactory/azurerm"
   version = "x.x.x
 
   ---Left out for brevity---
@@ -165,7 +165,7 @@ provider "azurerm" {
 }
 
 module "mod_datafactory" {
-  source  = "azurenoops/overlays-datafactory/azurerm"
+  source  = "POps-Rox/tf-az-overlays-datafactory/azurerm"
   version = "x.x.x
 
   ---Left out for brevity---
@@ -196,7 +196,7 @@ provider "azurerm" {
 }
 
 module "mod_datafactory" {
-  source  = "azurenoops/overlays-datafactory/azurerm"
+  source  = "POps-Rox/tf-az-overlays-datafactory/azurerm"
   version = "x.x.x"
 
   # The following variables are used to create a private endpoint connection
