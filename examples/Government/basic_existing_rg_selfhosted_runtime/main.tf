@@ -7,7 +7,7 @@ module "data_factory" {
   #version = "x.x.x"  
   source = "../../.."
 
-  depends_on = [ azurerm_resource_group.datafactory_rg ]
+  depends_on = [azurerm_resource_group.datafactory_rg]
 
   # By default, this module will create a resource group and 
   # provide a name for an existing resource group. If you wish 
@@ -28,7 +28,7 @@ module "data_factory" {
   # This is the private endpoint configuration for the Self Hosted Integration Runtime
   # This private endpoint will create a privste dns zone and a private dns record since
   # the private dns zone is not already created.
-  enable_private_endpoint = true
+  enable_private_endpoint       = true
   existing_virtual_network_name = azurerm_virtual_network.datafactory_vnet.name
-  existing_private_subnet_name = azurerm_subnet.datafactory_subnet.name
+  existing_private_subnet_name  = azurerm_subnet.datafactory_subnet.name
 }

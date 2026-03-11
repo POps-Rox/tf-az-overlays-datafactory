@@ -7,7 +7,7 @@ module "data_factory" {
   #version = "x.x.x"  
   source = "../../.."
 
-  depends_on = [ azurerm_resource_group.datafactory_rg ]
+  depends_on = [azurerm_resource_group.datafactory_rg]
 
   # By default, this module will create a resource group and 
   # provide a name for an existing resource group. If you wish 

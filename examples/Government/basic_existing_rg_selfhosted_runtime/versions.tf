@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 provider "azurerm" {
-  environment = var.environment
+  environment                = var.environment
   skip_provider_registration = true
   features {}
 }

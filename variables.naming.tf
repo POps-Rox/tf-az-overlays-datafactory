@@ -26,7 +26,7 @@ variable "use_naming" {
 variable "custom_resource_group_name" {
   description = "Custom name of the resource group, generated if not set."
   type        = string
-  default     = null  
+  default     = null
 }
 
 
