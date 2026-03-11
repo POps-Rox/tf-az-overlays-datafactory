@@ -3,7 +3,7 @@
 
 
 module "data_factory" {
-  #source = "azurenoops/overlays-datafactory/azurerm"  
+  #source = "github.com/POps-Rox/tf-az-overlays-datafactory"  
   #version = "x.x.x"  
   source = "../../.."
 
